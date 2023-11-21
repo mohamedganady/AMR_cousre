@@ -1,0 +1,10 @@
+<launch>
+
+// “type” refers to the name of the node executable file.
+
+    <node name ="talker"  pkg ="chatter_pkg" type="tallker" />
+
+    <node name="listener" pkg="chatter_pkg"  type="listener"  />
+
+
+</launch>
