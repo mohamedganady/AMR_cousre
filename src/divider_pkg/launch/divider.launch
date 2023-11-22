@@ -1,0 +1,17 @@
+<launch>
+
+
+
+// “type” refers to the name of the node executable file.
+
+<node name = "Divider_node"   pkg="divider_pkg"  type="Divider_node"/>
+<node name ="integer_publisher" pkg="chatter_pkg"  type ="integer_publisher"/>
+
+
+
+
+
+</launch>
+
+
+
